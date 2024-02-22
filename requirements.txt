@@ -1,5 +1,5 @@
 torch
-transformers
+transformers==4.26.1
 requests
 hashlib
 random
