@@ -62,7 +62,7 @@ class PromptTranslateToText:
 
     def run(self, model,tokenizer,prompt_text):
         if not prompt_text:
-        return ("",)
+            return ("",)
 
         translated = model.generate(**tokenizer(prompt_text, return_tensors="pt", padding=True))
         text = ""
