@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_kktranslator_nodes"
+description = "These nodes are mainly used to translate prompt words from other languages into English. PromptTranslateToText implements prompt word translation based on Helsinki NLP translation model.It doesn't require internet connection。"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch", "transformers==4.26.1", "requests", "hashlib", "random", "json"]
+
+[project.urls]
+Repository = "https://github.com/AIGCTeam/ComfyUI_kkTranslator_nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_kkTranslator_nodes"
+Icon = ""
